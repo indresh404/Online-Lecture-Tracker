@@ -41,6 +41,10 @@ https://example.com/lecture1.m3u8
 https://example.com/lecture2.m3u8
 
 How to Run
+RUN : npm install
+RUN INSIDE BACKEND FOLDER : python -m venv venv
+RUN INSIDE BACKEND FOLDER : venv\Scripts\activate
+RUN INSIDE BACKEND FOLDER : pip install -r requirements.txt
 Simply run the start.bat file.
 This batch file automatically starts both the backend server and the React frontend.
 
